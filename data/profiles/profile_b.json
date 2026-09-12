@@ -1,0 +1,28 @@
+{
+  "company_name": "Margalla Supplies (Pvt) Ltd (demo, fictional)",
+  "city": "Islamabad",
+  "ntn": true,
+  "on_fbr_atl": true,
+  "sales_tax_registered": true,
+  "secp_incorporated": true,
+  "years_incorporated": 8,
+  "pec_registration": "C-3",
+  "years_experience": 9,
+  "similar_contracts_count": 7,
+  "similar_contract_max_value_pkr": 25000000,
+  "avg_annual_turnover_pkr": 60000000,
+  "bank_account_scheduled_bank": true,
+  "not_blacklisted": true,
+  "certifications": ["ISO 9001", "OEM authorisation"],
+  "documents_on_hand": [
+    "NTN certificate",
+    "sales tax registration certificate",
+    "SECP incorporation certificate",
+    "audited financial statements",
+    "bank statement",
+    "experience certificates",
+    "affidavit on stamp paper for non-blacklisting",
+    "CNIC copy of owner",
+    "manufacturer authorisation letter"
+  ]
+}

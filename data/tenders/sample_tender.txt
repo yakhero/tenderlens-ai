@@ -1,0 +1,85 @@
+[PAGE 1]
+SAMPLE / TEST FIXTURE ONLY - NOT A REAL TENDER
+This synthetic document exists so the pipeline can be tested offline. For the demo,
+replace it with a real bidding document downloaded from the PPRA e-PADS portal.
+
+INVITATION FOR BIDS
+Procurement of IT Equipment for the Regional Training Institute, Islamabad
+Tender No. RTI/PROC/2026-14                          Issued: 05 October 2026
+
+Sealed bids are invited from firms registered with the Federal Board of Revenue for the
+supply of desktop computers, printers and networking equipment.
+
+Bids must be submitted through e-PADS on or before 2026-10-28 at 11:00 hours. Bids will be
+opened the same day at 11:30 hours in the presence of bidders' representatives.
+
+[PAGE 2]
+SECTION II - ELIGIBILITY CRITERIA
+
+2.1 The bidder shall possess a valid National Tax Number (NTN) issued by the Federal Board
+of Revenue and shall appear on the Active Taxpayer List at the time of bid submission.
+
+2.2 The bidder shall be registered for sales tax and shall provide a valid Sales Tax
+Registration Number (STRN).
+
+2.3 The bidder shall be a company incorporated under the Companies Act, 2017 and shall have
+been in continuous operation for at least five (05) years.
+
+2.4 The bidder shall have a minimum average annual turnover of Rs. 5 million over the last
+three financial years, supported by audited financial statements.
+
+2.5 The bidder shall have completed at least three (03) similar supply contracts with
+government departments during the last three years, each of a value not less than
+Rs. 2 million.
+
+2.6 The bidder shall not be blacklisted by any federal or provincial government department,
+and shall submit an affidavit to this effect on stamp paper of Rs. 100.
+
+[PAGE 3]
+SECTION III - BID SECURITY AND SUBMISSION
+
+3.1 Each bid shall be accompanied by a bid security of Rs. 150,000 in the form of a pay
+order or bank guarantee issued by a scheduled bank in favour of the Director (Finance).
+
+3.2 The bidder shall maintain an account with a scheduled bank in Pakistan and shall submit
+bank statements for the preceding twelve months.
+
+3.3 Bids shall remain valid for a period of ninety (90) days from the date of bid opening.
+
+3.4 The following documents shall be attached with the technical proposal:
+    (a) Copy of NTN certificate
+    (b) Copy of Sales Tax Registration certificate
+    (c) Certificate of incorporation issued by SECP
+    (d) Audited financial statements for the last three years
+    (e) Copies of purchase orders or completion certificates for similar contracts
+    (f) Affidavit regarding non-blacklisting
+    (g) Copy of CNIC of the owner or authorised representative
+
+[PAGE 4]
+SECTION IV - TECHNICAL REQUIREMENTS
+
+4.1 The bidder shall provide a manufacturer authorisation letter from the original equipment
+manufacturer for all quoted items.
+
+4.2 The bidder shall hold ISO 9001 certification, or provide evidence of an equivalent
+quality management system.
+
+4.3 The bidder shall provide an after-sales service facility located within Islamabad or
+Rawalpindi, with a response time not exceeding forty-eight (48) hours.
+
+4.4 Equipment shall carry a minimum warranty of three (03) years, on site.
+
+4.5 Bidders may, at their option, offer extended warranty terms; such offers shall not
+affect technical evaluation.
+
+[PAGE 5]
+SECTION V - EVALUATION
+
+5.1 Bids will be evaluated on a least-cost basis among technically responsive bids, in
+accordance with the Public Procurement Rules, 2004.
+
+5.2 A bid that does not meet any mandatory eligibility requirement of Section II shall be
+declared non-responsive and shall not be evaluated further.
+
+5.3 The procuring agency may reject all bids at any time prior to the acceptance of a bid,
+in accordance with Rule 33 of the Public Procurement Rules, 2004.

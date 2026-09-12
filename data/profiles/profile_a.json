@@ -1,0 +1,22 @@
+{
+  "company_name": "Al-Noor Traders (demo, fictional)",
+  "city": "Rawalpindi",
+  "ntn": true,
+  "on_fbr_atl": true,
+  "sales_tax_registered": false,
+  "secp_incorporated": false,
+  "years_incorporated": 2,
+  "pec_registration": "C-6",
+  "years_experience": 2,
+  "similar_contracts_count": 2,
+  "similar_contract_max_value_pkr": 1500000,
+  "avg_annual_turnover_pkr": 3000000,
+  "bank_account_scheduled_bank": true,
+  "not_blacklisted": true,
+  "certifications": [],
+  "documents_on_hand": [
+    "NTN certificate",
+    "CNIC copy of owner",
+    "bank statement"
+  ]
+}
