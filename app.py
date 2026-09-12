@@ -163,7 +163,11 @@ if raw:
                 st.session_state["confirmed"] = None
                 save_cache(h, reqs)
                 bar.empty()
-                st.success(f"{len(reqs)} requirements extracted · {verify.verification_rate(reqs)}% of citations auto-verified")
+                if llm.LAST_WORKING_MODEL and llm.LAST_WORKING_MODEL != use_model:
+                    st.session_state["model"] = llm.LAST_WORKING_MODEL
+                    st.info(f"{use_model} was retired by Google, so it ran on {llm.LAST_WORKING_MODEL} instead.")
+                st.success(f"{len(reqs)} requirements extracted with {llm.LAST_WORKING_MODEL or use_model} · "
+                           f"{verify.verification_rate(reqs)}% of citations auto-verified")
             except llm.LLMError as e:
                 bar.empty()
                 st.error(f"Extraction failed: {e}")
