@@ -84,9 +84,23 @@ def load_cache(h: str):
 st.sidebar.title("TenderLens AI")
 st.sidebar.caption("Read the tender. Know if you qualify. Before you bid.")
 
-api_key = (st.secrets.get("GEMINI_API_KEY", "") if hasattr(st, "secrets") and st.secrets else "") or llm.key_from_env()
-api_key = st.sidebar.text_input("Gemini API key", value=api_key, type="password",
-                                help="Get a free key at aistudio.google.com. Or set it in Streamlit secrets.")
+def _stored_key() -> str:
+    try:
+        if hasattr(st, "secrets") and "GEMINI_API_KEY" in st.secrets:
+            return str(st.secrets["GEMINI_API_KEY"])
+    except Exception:  # noqa: BLE001 - no secrets file locally
+        pass
+    return llm.key_from_env()
+
+
+# A password field still hands its value to anyone who clicks the reveal icon, so when the key
+# is configured on the server we never put it in a widget at all.
+api_key = _stored_key()
+if api_key:
+    st.sidebar.success("API key loaded from server secrets")
+else:
+    api_key = st.sidebar.text_input("Gemini API key", value="", type="password",
+                                    help="Get a free key at aistudio.google.com, or set GEMINI_API_KEY in Streamlit secrets.")
 model = st.sidebar.text_input("Model", value=st.session_state.get("model", ""),
                               placeholder="auto-detect", help="Leave blank to auto-pick a Flash model your key supports.")
 if st.sidebar.button("Check key / list models", use_container_width=True):
